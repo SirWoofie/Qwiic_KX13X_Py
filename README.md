@@ -1,6 +1,10 @@
 Qwiic_KX13X_Py
 ==================
 
+#################################################################
+#This is a modified version of the Sparkfun Qwiic KX13X library in an attempt to remove the __future__ import to make it compatible with Thonny and Raspberry Pi Pico
+#################################################################
+
 <p align="center">
    <img src="https://cdn.sparkfun.com/assets/custom_pages/2/7/2/qwiic-logo-registered.jpg"  width=200>  
    <img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png"  width=240>   
