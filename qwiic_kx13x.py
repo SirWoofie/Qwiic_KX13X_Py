@@ -54,7 +54,7 @@ New to qwiic? Take a look at the entire [SparkFun qwiic ecosystem](https://www.s
 """
 
 #-----------------------------------------------------------------------------
-from __future__ import print_function
+#from __future__ import print_function #remove this line
 import qwiic_i2c
 from collections import namedtuple
 
@@ -328,7 +328,7 @@ class QwiicKX13XCore(object):
         """
             This functions controls the accelerometers power on and off state.
             :param enable: True or false indicating power on or off
-            respectively. 
+            respectively.Â 
             :return: Returns false when an incorrect argumen has been passed.
             :rtype: bool
         """
